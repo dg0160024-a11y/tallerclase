@@ -1,0 +1,56 @@
+package taller.en.clase;
+
+public class App {
+    
+
+    public static void main(String[] args) {
+       byte b = 1;
+       short s = 100;
+       int i = 1000;
+       long l = 10000L;
+       float f = 1.1f;
+       double d = 2.2;
+       char c = 'B';
+       boolean bool = true;
+       String str = "hola";
+
+       int n1 = 5;
+       int n2 = 10;
+       int n3 = 15;
+       double d2 = 3.14;
+       long l2 = 5000L;
+       float f2 = 2.5f;
+       char c2 = 'A';
+       String name = "Daniel";
+       byte b2 = 2;
+       short s2 = 200;
+
+       // Reasignaciones
+       i = n1;
+       l = l2;
+       f = (float) d;
+       c = c2;
+       bool = bool2;
+
+       // Hardcode
+       b = 7;
+       s = 300;
+       n1 = 99;
+       n2 = 100;
+       n3 = 101;  
+       d2 = 6.28;
+       l2 = 7000L;
+       f2 = 5.0f;
+       c2 = 'z';
+       name = "Juan";
+       b2 = 8;
+       s2 = 500;
+
+       // Impresion para ver resultados
+       System.out.println("b=" + b + "s=" + s + "i=" + i + "l=" + l);
+       System.out.println("f=" + f + "d=" + d + "c=" + c + "bool=" + bool);
+       System.out.println("str=" + str + "name=" + name);
+
+
+    }
+}
