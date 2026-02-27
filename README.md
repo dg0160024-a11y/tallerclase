@@ -1,24 +1,28 @@
 # TALLER 🖥️ 🌐
 
-Este proyecto tiene como finalidad explicar y poner en práctica los comandos fundamentales del lenguaje Java. A través del archivo HolaMundo, se muestra cómo imprimir mensajes en pantalla dirigidos al usuario y cómo solicitar información desde la consola, específicamente el nombre de la persona que ejecuta el programa.
+Este proyecto en Java está compuesto por dos programas principales que permiten practicar el uso de estructuras de control, tipos de datos, operaciones matemáticas y manejo de errores.
 
-Para lograr esto, se utiliza la clase Scanner, perteneciente al paquete java.util, la cual permite capturar datos ingresados por el usuario desde el teclado. De esta manera, el programa no solo muestra texto en pantalla, sino que también interactúa con quien lo ejecuta, haciendo el proceso más dinámico y práctico.
+En la primera parte, la clase CalculadoraEcuaciones implementa un programa interactivo en consola que muestra un menú con diferentes opciones. El usuario puede elegir entre resolver dos ecuaciones matemáticas complejas o salir del sistema. Para cada ecuación, el programa solicita los valores de las variables x y z, realiza los cálculos correspondientes siguiendo el orden correcto de las operaciones y muestra el resultado con seis decimales de precisión. Además, incluye validaciones para evitar errores como divisiones por cero y controla excepciones cuando el usuario ingresa datos no numéricos, garantizando un funcionamiento más seguro y estable.
 
-En resumen, este proyecto demuestra el uso de instrucciones básicas de salida de datos y entrada de información en Java, reforzando conceptos esenciales para comenzar a desarrollar programas interactivos 
+En la segunda parte, la clase App tiene como objetivo reforzar el manejo de los tipos de datos primitivos y no primitivos en Java. Se declaran variables de tipo byte, short, int, long, float, double, char, boolean y String, se realizan reasignaciones de valores, conversiones de tipo (casting) y modificaciones directas (hardcode). Finalmente, se imprimen los resultados en consola para verificar los cambios realizados.
 
+En conjunto, el proyecto demuestra el uso de:
 
+Estructuras repetitivas (while)
 
+Estructuras condicionales (switch)
 
-## Pasos para la instalacion de JDK:
+Métodos
 
-• Tener visual studio code
+Manejo de excepciones (try-catch)
 
-• Tener la extension de Java (Java Extension Pack)
+Operaciones aritméticas
 
-• Clonar el repositorio
+Validaciones lógicas
 
-• Ejecutar el programa
+Tipos de datos y conversiones en Java
 
+Es un ejercicio práctico enfocado en fortalecer la lógica de programación y el dominio de los fundamentos del lenguaje Java.
 
 
 
@@ -33,8 +37,8 @@ En resumen, este proyecto demuestra el uso de instrucciones básicas de salida d
 
 # ENLACES:
 
-• https://www.ibm.com/mx-es/think/topics/compiler ¿Que es un compilador?
+• https://ebac.mx/blog/variable-en-programacion ¿Que es una variable en programacion y para que sirve?
 
-• https://europeanvalley.es/noticias/que-es-un-compilador-en-programacion/ ¿Que es especificamente en programacion un compilador?
+• https://eiposgrados.com/blog-desarrollo-web-fullstack/logica-programacion/ ¿La logica de programacion y sus fundamentos?
 
-• https://www.rae.es/diccionario-estudiante/compilador Tipos de compiladores y formas
+• https://www.ibm.com/docs/es/tcamfma/6.3.0?topic=tesl-constants-variables-4 Constantes y variables
