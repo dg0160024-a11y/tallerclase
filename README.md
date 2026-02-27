@@ -32,6 +32,8 @@ Es un ejercicio práctico enfocado en fortalecer la lógica de programación y e
 
 • Juan Felipe Vanegas Rojas
 
+• Presi
+
 
 
 
